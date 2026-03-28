@@ -1,0 +1,53 @@
+{
+  "name": "@ntkrnl64/fluentui-vue-icons",
+  "description": "20,000+ Fluent UI System Icons as Vue 3 components. Generated from Microsoft's fluentui-system-icons SVG assets with tree-shakeable named exports.",
+  "version": "1.0.0",
+  "license": "GPL-3.0",
+  "type": "module",
+  "author": "ntkrnl64",
+  "homepage": "https://github.com/ntkrnl64/fluentui-vue-icons",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ntkrnl64/fluentui-vue-icons.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ntkrnl64/fluentui-vue-icons/issues"
+  },
+  "keywords": [
+    "fluent-ui",
+    "icons",
+    "vue",
+    "vue3",
+    "svg-icons",
+    "microsoft",
+    "fluent-design",
+    "system-icons",
+    "tree-shakeable"
+  ],
+  "main": "./dist/fluentui-vue-icons.js",
+  "module": "./dist/fluentui-vue-icons.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/fluentui-vue-icons.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "files": ["dist", "src", "LICENSE", "README.md", "THIRD_PARTY_LICENSES"],
+  "scripts": {
+    "generate": "node scripts/generate.js",
+    "build": "vite build",
+    "typecheck": "vue-tsc --noEmit"
+  },
+  "peerDependencies": {
+    "vue": "^3.5.0"
+  },
+  "devDependencies": {
+    "vue": "^3.5.30",
+    "typescript": "~5.9.3",
+    "vite": "^8.0.1",
+    "vue-tsc": "^3.2.5",
+    "@vitejs/plugin-vue": "^6.0.5",
+    "lodash-es": "^4.17.21"
+  }
+}
