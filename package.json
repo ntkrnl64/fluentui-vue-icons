@@ -1,7 +1,7 @@
 {
   "name": "@ntkrnl64/fluentui-vue-icons",
   "description": "20,000+ Fluent UI System Icons as Vue 3 components. Generated from Microsoft's fluentui-system-icons SVG assets with tree-shakeable named exports.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "license": "GPL-3.0",
   "type": "module",
   "author": "ntkrnl64",
@@ -49,5 +49,8 @@
     "vue-tsc": "^3.2.5",
     "@vitejs/plugin-vue": "^6.0.5",
     "lodash-es": "^4.17.21"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
